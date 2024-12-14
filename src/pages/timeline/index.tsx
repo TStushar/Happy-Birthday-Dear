@@ -15,23 +15,23 @@ const timelineData: TimelineEvent[] = [
     title: "First Meeting",
     date: "April 08, 2019",
     description: "That Hi...! आणि बिचारा साधा भोळा मी ...🤭",
-    image: "cscs", // Ganti dengan URL gambar yang sesuai
+    image: "../../../public/img/1.jpg", // Ganti dengan URL gambar yang sesuai
   },
   {
     id: 2,
     title: "First Messege",
     date: "June, 2019",
     description:
-      "अरे सॉरी सॉरी 🤭 तो तर तू मामांना केला होता नाही का? 🤣 वेडूच  आहेस ग तू 😂",
-    image: "cscs", // Ganti dengan URL gambar yang sesuai
+      "अरे सॉरी सॉरी 🤭 तो तर तू मामांना केला होतास नाही का? 🤣 वेडूच  आहेस ग तू 😂",
+    image: "../../../public/img/2.jpg", // Ganti dengan URL gambar yang sesuai
   },
   {
     id: 3,
     title: "First Call",
     date: "December 15, 2023",
     description:
-      "It took 4.5 years to make our first call...How slow you are...😒 We talked for more than 57min...",
-    image: "https://via.placeholder.com/150",
+      "It took 4.5 years to make our first call...How slow you are...😒",
+    image: "../../../public/img/3.jpg",
   },
   {
     id: 4,
@@ -39,15 +39,15 @@ const timelineData: TimelineEvent[] = [
     date: "Feb 29, 2024",
     description:
       "घरी कुणी नाही म्हणे,  मग का केला कॉल? आपण काय 'Couples' आहोत का कुणी नसताना कॉल करायला? तरी सांगितलं होत 'I save my photos on Drive', कशाला बॅकअप व्हायचं होत!",
-    image: "https://via.placeholder.com/150",
+    image: "../../../public/img/4.jpeg",
   },
   {
     id: 5,
     title: "Expressing...",
     date: "May 15, 2024",
     description:
-      "This was forth call not don't think was needed. काही सांगता हि नाही आलं तुला, डरपोक.मी असतो तर बोललो असतो सरळ सरळ. पण आपण तर मित्र आहोत न? खूप छान मित्र?",
-    image: "https://via.placeholder.com/150",
+      "This was forth call and I don't think was needed. काही सांगता हि नाही आलं तुला, डरपोक. मी असतो तर बोललो असतो सरळ सरळ. पण आपण तर मित्र आहोत न? हो न?",
+    image: "../../../public/img/5.jpg",
   },
 ];
 
@@ -127,7 +127,7 @@ const Timeline = () => {
                   <img
                     src={selectedEvent.image}
                     alt={selectedEvent.title}
-                    className="rounded-xl mb-4 w-full object-cover h-40"
+                    className="rounded-xl mb-4 w-full object-cover h-75"
                   />
                   <h2 className="text-2xl font-bold mb-2">
                     {selectedEvent.title}
