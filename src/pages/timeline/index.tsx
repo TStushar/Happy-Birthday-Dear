@@ -1,5 +1,5 @@
 import Heading from "@/components/heading";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface TimelineEvent {
   id: number;

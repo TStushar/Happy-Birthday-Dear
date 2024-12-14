@@ -1,5 +1,5 @@
 // GiftBox.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 
 interface GiftBoxProps {

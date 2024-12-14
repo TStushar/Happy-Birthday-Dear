@@ -1,5 +1,5 @@
 // Countdown.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface CountdownProps {
   targetDate: Date; // The target date to count down to
