@@ -71,7 +71,7 @@ const Timeline = () => {
           <div className="mt-28">
             <Heading
               title="timeline"
-              subtitle="हे सगळं तुझ्या मुले झालं आहे ...🤭😁"
+              subtitle="हे सगळं तुझ्या मुळे झालं आहे ...🤭😁"
             />
           </div>
           <div className="flex flex-col md:flex-row gap-4 lg:items-center px-5 lg:p-8 mb-16">

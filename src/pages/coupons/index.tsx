@@ -25,7 +25,7 @@ const Coupons = () => {
         <div className="container mx-auto px-4 lg:px-24 ">
           <section className="overflow-hidden text-gray-700">
             <div className="mt-28">
-              <Heading title="coupons" subtitle="for your special day &lt;3" />
+              <Heading title="coupons" subtitle="for our special day 💖 " />
             </div>
             <section className="font-inter ">
               <h3 className="font-semibold my-5">Hopefully &#x1F91E;</h3>

@@ -11,7 +11,7 @@ interface Image {
 const images: Image[] = [
   {
     id: 1,
-    src: "../../../public/img/VeduAurMain 6.jpg",
+    src: "../../../public/img/logo.png",
     alt: "Image 1",
   },
   {
@@ -41,7 +41,7 @@ const images: Image[] = [
   },
   {
     id: 7,
-    src: "../../../public/img/logo.png",
+    src: "../../../public/img/takingCare.jpg",
     alt: "Image 4",
   },
   {
@@ -156,7 +156,7 @@ const Gallery = () => {
         <div className="container mx-auto px-4 lg:px-24">
           <section className="overflow-hidden text-gray-700">
             <div className="mt-28 mb-8">
-              <Heading title="gallery" subtitle="lorem ipsum" />
+              <Heading title="gallery" subtitle="Dreams..." />
             </div>
             <div className="flex flex-wrap -m-1 md:-m-2">
               {/* Left Column */}
