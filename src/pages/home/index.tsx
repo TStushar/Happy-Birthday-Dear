@@ -79,10 +79,11 @@ const Home = () => {
 
   // Close greeting modal when clicking outside
   const handleGreetingModalClick = (e: React.MouseEvent) => {
-    if (
-      greetingModalRef.current &&
-      !greetingModalRef.current.contains(e.target as Node)
-    ) {
+    // if (
+    //   greetingModalRef.current &&
+    // !greetingModalRef.current.contains(e.target as Node)
+    // )
+    {
       setIsGreetingOpen(false);
     }
   };
@@ -104,8 +105,8 @@ const Home = () => {
         <section className="container mx-auto px-4 lg:px-24 font-montserrat min-h-screen flex items-center pt-48">
           <div className="grid md:grid-cols-3 grid-cols-1 gap-8 items-center relative">
             <div className="flex flex-col space-y-4 col-span-2 z-10 bg-header lg:mt-0 mt-20">
-              <p className="uppercase text-lg tracking-[.3em] font-medium text-gray-500">
-                Hi Sayang,
+              <p className="text-lg tracking-[.3em] font-medium text-pink-500">
+                Hi Vedubai,
               </p>
               <h1 className="font-black text-[#2B343A] uppercase lg:text-7xl md:text-5xl text-4xl leading-[1.2] tracking-wider">
                 Happy
@@ -143,17 +144,24 @@ const Home = () => {
 
       {/* Greeting Modal */}
       {isGreetingOpen && (
-        <div
-          className="fixed inset-0 flex items-start top-[4.8rem]  bg-black bg-opacity-50 z-40"
-          onClick={handleGreetingModalClick}
-        >
+        <div className="fixed inset-0 flex items-start top-[4.8rem]  bg-black bg-opacity-50 z-40">
           <div
             ref={greetingModalRef}
-            className="relative p-8 max-w-full lg:mx-40 mx-10 w-full bg-white top-10"
+            className="relative p-8 max-w-full lg:mx-40 mx-10 w-full bg-white top-10 flex justify-evenly "
           >
-            <span className="px-4 py-2 bg-[#E26475] text-white rounded-full">
-              Happy birthday! &lt;3
+            <span
+              className="px-4 py-2 bg-[#E26475] text-white rounded-full cursor-pointer "
+              onClick={handleGreetingModalClick}
+            >
+              Happy birthday Dear!
             </span>
+            <button
+              className="text-pink-500 background-transparent font-bold uppercase px-8 py-3 outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              type="button"
+              onClick={handleGreetingModalClick}
+            >
+              <i className="fas fa-heart"></i> Go Ahead
+            </button>
           </div>
         </div>
       )}
