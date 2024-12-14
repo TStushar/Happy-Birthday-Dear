@@ -19,34 +19,34 @@ const timelineData: TimelineEvent[] = [
   },
   {
     id: 2,
-    title: "First Call",
-    date: "December 15, 2023",
+    title: "First Messege",
+    date: "June, 2019",
     description:
-      "It took 4.5 years to make our first call...How slow you are...😒 It was your birthday and we talked for more than 57min...",
-    image: "https://via.placeholder.com/150",
+      "अरे सॉरी सॉरी 🤭 तो तर तू मामांना केला होता नाही का? 🤣 वेडूच  आहेस ग तू 😂",
+    image: "cscs", // Ganti dengan URL gambar yang sesuai
   },
   {
     id: 3,
-    title: "Second Call",
-    date: "April 15, 2020",
+    title: "First Call",
+    date: "December 15, 2023",
     description:
-      "After a few amazing dates, we decided to make it official. We became a couple and shared this special moment with our closest friends.",
+      "It took 4.5 years to make our first call...How slow you are...😒 We talked for more than 57min...",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 4,
-    title: "First Trip Together",
-    date: "July 20, 2020",
+    title: "Second Call",
+    date: "Feb 29, 2024",
     description:
-      "We went on our first trip together to Bali. It was a magical experience filled with laughter, adventure, and unforgettable memories.",
+      "घरी कुणी नाही म्हणे,  मग का केला कॉल? आपण काय 'Couples' आहोत का कुणी नसताना कॉल करायला? तरी सांगितलं होत 'I save my photos on Drive', कशाला बॅकअप व्हायचं होत!",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 5,
-    title: "First Anniversary",
-    date: "April 15, 2021",
+    title: "Expressing...",
+    date: "May 15, 2024",
     description:
-      "Celebrated our first anniversary together! We reminisced about all the wonderful memories we've made and looked forward to many more.",
+      "This was forth call not don't think was needed. काही सांगता हि नाही आलं तुला, डरपोक.मी असतो तर बोललो असतो सरळ सरळ. पण आपण तर मित्र आहोत न? खूप छान मित्र?",
     image: "https://via.placeholder.com/150",
   },
 ];
