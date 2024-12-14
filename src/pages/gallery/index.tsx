@@ -11,27 +11,27 @@ interface Image {
 const images: Image[] = [
   {
     id: 1,
-    src: "https://i.pinimg.com/564x/c6/9e/93/c69e939e951e02a6031723c131c908fa.jpg",
+    src: "../../../public/img/vedu's_bday_wishesh.jpg",
     alt: "Image 1",
   },
   {
     id: 2,
-    src: "https://i.pinimg.com/564x/51/30/77/5130770e4cdec78276415c649837bef0.jpg",
+    src: "../../../public/img/vedu's_bday_wishesh_2.jpg",
     alt: "Image 2",
   },
   {
     id: 3,
-    src: "https://i.pinimg.com/564x/f7/96/a7/f796a7be21dba489fbe98ca5d43bd7e5.jpg",
+    src: "../../../public/img/logo.png",
     alt: "Image 3",
   },
   {
     id: 4,
-    src: "https://i.pinimg.com/564x/c5/d5/63/c5d56308c0363c419ed40e9518b1e9cf.jpg",
+    src: "../../../public/img/VeduAurMain2.jpeg",
     alt: "Image 4",
   },
   {
     id: 5,
-    src: "https://i.pinimg.com/736x/42/bd/42/42bd4281419cabac8b01f29dd87b263d.jpg",
+    src: "../../../public/img/VeduAurMain 6.jpg",
     alt: "Image 5",
   },
   {

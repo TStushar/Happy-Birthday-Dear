@@ -13,22 +13,21 @@ const timelineData: TimelineEvent[] = [
   {
     id: 1,
     title: "First Meeting",
-    date: "February 14, 2020",
-    description:
-      "We met for the first time at a coffee shop on Valentine's Day. It was an unexpected encounter that turned out to be unforgettable.",
-    image: "https://via.placeholder.com/150", // Ganti dengan URL gambar yang sesuai
+    date: "April 08, 2019",
+    description: "That Hi...! आणि बिचारा साधा भोळा मी ...🤭",
+    image: "cscs", // Ganti dengan URL gambar yang sesuai
   },
   {
     id: 2,
-    title: "First Date",
-    date: "March 1, 2020",
+    title: "First Call",
+    date: "December 15, 2023",
     description:
-      "Our first official date! We went to a movie and had dinner at our favorite Italian restaurant. It was the perfect start to our journey together.",
+      "It took 4.5 years to make our first call...How slow you are...😒 It was your birthday and we talked for more than 57min...",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 3,
-    title: "Became a Couple",
+    title: "Second Call",
     date: "April 15, 2020",
     description:
       "After a few amazing dates, we decided to make it official. We became a couple and shared this special moment with our closest friends.",
@@ -70,7 +69,10 @@ const Timeline = () => {
       <div className="container mx-auto px-4 lg:px-24">
         <section className="overflow-hidden">
           <div className="mt-28">
-            <Heading title="timeline" subtitle="of aviation history" />
+            <Heading
+              title="timeline"
+              // subtitle="हे सगळं तुझ्या मुले झालं आहे ...🤭😁"
+            />
           </div>
           <div className="flex flex-col md:flex-row gap-4 lg:items-center px-5 lg:p-8 mb-16">
             {/* Timeline Section */}
