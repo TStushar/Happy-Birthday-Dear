@@ -51,7 +51,7 @@ const Countdown = ({ targetDate, onClick }: CountdownProps) => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-header text-white">
       <h2 className="lg:text-3xl 2xl:text-5xl text-3xl font-bold lg:mb-10 mb-5 text-mandy/60 text-center">
-        Countdown to <span className="text-mandy">Lorem Ipsum's</span> Birthday
+        Countdown to <span className="text-mandy">Vedu's</span> Birthday
       </h2>
       <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
         <div className="flex flex-col items-center">
