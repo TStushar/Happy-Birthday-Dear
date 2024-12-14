@@ -13,42 +13,41 @@ const timelineData: TimelineEvent[] = [
   {
     id: 1,
     title: "First Meeting",
-    date: "February 14, 2020",
-    description:
-      "We met for the first time at a coffee shop on Valentine's Day. It was an unexpected encounter that turned out to be unforgettable.",
-    image: "https://via.placeholder.com/150", // Ganti dengan URL gambar yang sesuai
+    date: "April 08, 2019",
+    description: "That Hi...! आणि बिचारा साधा भोळा मी ...🤭",
+    image: "../../../public/img/1.jpg", // Ganti dengan URL gambar yang sesuai
   },
   {
     id: 2,
-    title: "First Date",
-    date: "March 1, 2020",
+    title: "First Messege",
+    date: "June, 2019",
     description:
-      "Our first official date! We went to a movie and had dinner at our favorite Italian restaurant. It was the perfect start to our journey together.",
-    image: "https://via.placeholder.com/150",
+      "अरे सॉरी सॉरी 🤭 तो तर तू मामांना केला होतास नाही का? 🤣 वेडूच  आहेस ग तू 😂",
+    image: "../../../public/img/2.jpg", // Ganti dengan URL gambar yang sesuai
   },
   {
     id: 3,
-    title: "Became a Couple",
-    date: "April 15, 2020",
+    title: "First Call",
+    date: "December 15, 2023",
     description:
-      "After a few amazing dates, we decided to make it official. We became a couple and shared this special moment with our closest friends.",
-    image: "https://via.placeholder.com/150",
+      "It took 4.5 years to make our first call...How slow you are...😒",
+    image: "../../../public/img/3.jpg",
   },
   {
     id: 4,
-    title: "First Trip Together",
-    date: "July 20, 2020",
+    title: "Second Call",
+    date: "Feb 29, 2024",
     description:
-      "We went on our first trip together to Bali. It was a magical experience filled with laughter, adventure, and unforgettable memories.",
-    image: "https://via.placeholder.com/150",
+      "घरी कुणी नाही म्हणे,  मग का केला कॉल? आपण काय 'Couples' आहोत का कुणी नसताना कॉल करायला? तरी सांगितलं होत 'I save my photos on Drive', कशाला बॅकअप व्हायचं होत!",
+    image: "../../../public/img/4.jpeg",
   },
   {
     id: 5,
-    title: "First Anniversary",
-    date: "April 15, 2021",
+    title: "Expressing...",
+    date: "May 15, 2024",
     description:
-      "Celebrated our first anniversary together! We reminisced about all the wonderful memories we've made and looked forward to many more.",
-    image: "https://via.placeholder.com/150",
+      "This was forth call and I don't think was needed. काही सांगता हि नाही आलं तुला, डरपोक. मी असतो तर बोललो असतो सरळ सरळ. पण आपण तर मित्र आहोत न? हो न?",
+    image: "../../../public/img/5.jpg",
   },
 ];
 
@@ -70,7 +69,10 @@ const Timeline = () => {
       <div className="container mx-auto px-4 lg:px-24">
         <section className="overflow-hidden">
           <div className="mt-28">
-            <Heading title="timeline" subtitle="of aviation history" />
+            <Heading
+              title="timeline"
+              subtitle="हे सगळं तुझ्या मुळे झालं आहे ...🤭😁"
+            />
           </div>
           <div className="flex flex-col md:flex-row gap-4 lg:items-center px-5 lg:p-8 mb-16">
             {/* Timeline Section */}
@@ -125,7 +127,7 @@ const Timeline = () => {
                   <img
                     src={selectedEvent.image}
                     alt={selectedEvent.title}
-                    className="rounded-xl mb-4 w-full object-cover h-40"
+                    className="rounded-xl mb-4 w-full object-cover h-75"
                   />
                   <h2 className="text-2xl font-bold mb-2">
                     {selectedEvent.title}

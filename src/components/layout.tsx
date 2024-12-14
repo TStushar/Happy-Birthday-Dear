@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Countdown from "./countdown";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 
 const Layout = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -31,12 +31,17 @@ const Layout = () => {
     };
   }, []);
 
-  const targetDate = new Date("2024-11-16T14:58:00");
+  // const targetDate = new Date("2024-12-14T23:59:59");  //OG date time
+  const targetDate = new Date("2024-12-14T21:15:00");
 
   return (
     <>
       {/* Audio Element */}
-      <audio ref={audioRef} src="song.mp3" loop />
+      <audio
+        ref={audioRef}
+        src="https://wapking.pro/siteuploads/files/sfd37/18098/O%20Sa2athi%20(Baaghi%202)(MyMp3Song).mp3" //song url
+        loop
+      />
 
       {isLoading ? (
         <div className="flex items-center justify-center min-h-screen bg-header">

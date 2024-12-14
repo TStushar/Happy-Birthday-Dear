@@ -25,21 +25,16 @@ const Coupons = () => {
         <div className="container mx-auto px-4 lg:px-24 ">
           <section className="overflow-hidden text-gray-700">
             <div className="mt-28">
-              <Heading title="coupons" subtitle="for your special day &lt;3" />
+              <Heading title="coupons" subtitle="for our special day 💖 " />
             </div>
             <section className="font-inter ">
-              <h3 className="font-semibold my-5">Terms & Condition</h3>
+              <h3 className="font-semibold my-5">Hopefully &#x1F91E;</h3>
               <p className="font-light text-sm">
-                Please accept these terms and conditions before using your
-                coupons. Offers are only valid with a participating bang Ando.
-                Bang Ando is not responsible for lost coupons, however, he may
-                feel bad and give you a little something extra to make up for it
-                (wink, wink, nudge, nudge). Coupons may be combined to create
-                awesome mega-coupons! Expiration: The day before next year’s
-                birthday so we can do another exciting things next year. The
-                coupon must be presented to bang Ando for redemption. Bang Ando
-                may keep the coupon if he deems it necessary. Coupons hold no
-                cash value, but tons of sentimental value.
+                Hopefully, we will meet soon, and I can’t wait to use these
+                coupons with you. Spending time together is always special, and
+                I look forward to creating even more beautiful memories with
+                you. You mean so much to me, and every moment we share is a gift
+                I truly treasure.
               </p>
             </section>
 

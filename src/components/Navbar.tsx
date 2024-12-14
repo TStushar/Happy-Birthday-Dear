@@ -27,7 +27,11 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-2xl font-bold flex items-center space-x-2">
           <NavLink to={"/"}>
-            <img src="logo.webp" alt="Logo" className="w-36" />
+            <img
+              src="../../public/img/distance.jpg"
+              alt="Logo"
+              className="w-36"
+            />
           </NavLink>
         </div>
 
