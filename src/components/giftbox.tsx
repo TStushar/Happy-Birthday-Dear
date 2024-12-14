@@ -51,7 +51,7 @@ const GiftBox = ({ toggleModal }: GiftBoxProps) => {
         </button>
 
         {/* Title */}
-        <h2 className="text-3xl  font-inter mb-2">Happy birthday, sayang!</h2>
+        <h2 className="text-3xl  font-inter mb-2">Happy birthday Dear Vedu!</h2>
 
         {/* Subtitle */}
         <p className="text-gray-800 mb-4 text-sm">
@@ -65,29 +65,34 @@ const GiftBox = ({ toggleModal }: GiftBoxProps) => {
         {/* Letter Content */}
         <div className="space-y-4 text-gray-900 pr-2 text-sm text-justify">
           <p>
-            <strong>My dearest Michelle</strong>
+            <strong>My Closest Friend</strong>
           </p>
           <p>
-            I can hardly believe that another year has passed, and here we are
-            celebrating another birthday. I hope this day brings you all the joy
-            and happiness that you deserve.
+            I want you to know how special you are to me. You came into my life
+            unexpectedly, but over time, you became one of the closest and most
+            important people to me. You're not just my partner—you’re my truest
+            friend, someone I deeply respect and care for.
           </p>
           <p>
-            I want you to know how much I love and appreciate everything that
-            you do for me. You make me feel loved, cared for, and valued, and I
-            feel incredibly lucky to have you in my life. You have brought so
-            much happiness and joy into my life, and I can't imagine a world
-            without you. I want you to know how much I love and appreciate
-            everything that you do for me. You make me feel loved, cared for,
-            and valued, and I feel incredibly lucky to have you in my life. You
-            have brought so much happiness and joy into my life, and I can't
-            imagine a world without you. I want you to know how much I love and
-            appreciate everything that you do for me. You make me feel loved,
-            cared for, and valued, and I feel incredibly lucky to have you in my
-            life. You have brought so much happiness and joy into my life, and I
-            can't imagine a world without you.
+            As we walk through life together, my only wish is for you to have
+            the freedom to be yourself, pursue your dreams, and always feel
+            valued and respected. I truly believe in creating a space where it’s
+            just us, where we can talk about anything and everything as equals,
+            as true companions.
           </p>
-          <p>I admire you for so many reasons - your ...</p>
+          <p>
+            What I truly value is your ability to maintain respect for yourself
+            and others while being my wife. I admire your ambition and your
+            willingness to hustle hard for your dreams. It’s important to me
+            that we support each other’s goals, and I hope you will always feel
+            free to grow while understanding my drive to help others.
+          </p>
+          <p>
+            Today, I celebrate you—not just for being in my life but for being
+            the incredible person you are. I don’t know what the future holds,
+            but in this moment, I feel lucky to have you by my side.
+          </p>
+          <h2> Happy Birthday once again!</h2>
         </div>
       </div>
     </div>
