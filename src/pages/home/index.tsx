@@ -78,13 +78,9 @@ const Home = () => {
   };
 
   // Close greeting modal when clicking outside
-  const handleGreetingModalClick = (e: React.MouseEvent) => {
-    // if (
-    //   greetingModalRef.current &&
-    // !greetingModalRef.current.contains(e.target as Node)
-    // )
+  const handleGreetingModalClick = () => {
     {
-      setIsGreetingOpen(false);
+      setIsGreetingOpen(false); //removed
     }
   };
 

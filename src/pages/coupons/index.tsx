@@ -19,6 +19,7 @@ const Coupons = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <>
       <div className="bg-[#FCFCFE]">

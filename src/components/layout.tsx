@@ -39,7 +39,7 @@ const Layout = () => {
       {/* Audio Element */}
       <audio
         ref={audioRef}
-        src="https://wapking.pro/siteuploads/files/sfd37/18098/O%20Sa2athi%20(Baaghi%202)(MyMp3Song).mp3" //song url
+        src="https://wapking.pro/siteuploads/files/sfd37/18098/O%20Saathi%20(Baaghi%202)(MyMp3Song).mp3" //song url
         loop
       />
 
