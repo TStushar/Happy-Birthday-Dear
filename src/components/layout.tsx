@@ -32,7 +32,7 @@ const Layout = () => {
   }, []);
 
   // const targetDate = new Date("2024-12-14T23:59:59");  //OG date time
-  const targetDate = new Date("2024-12-14T17:5:00");
+  const targetDate = new Date("2024-12-14T21:15:00");
 
   return (
     <>

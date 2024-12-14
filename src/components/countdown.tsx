@@ -7,6 +7,9 @@ interface CountdownProps {
 }
 
 const Countdown = ({ targetDate, onClick }: CountdownProps) => {
+  const [isOpenBtn, setIdOpenBtn] = useState(false);
+  console.log("first time", isOpenBtn);
+
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
     const distance = targetDate.getTime() - now;
@@ -32,9 +35,13 @@ const Countdown = ({ targetDate, onClick }: CountdownProps) => {
     const timer = setInterval(() => {
       const newTimeLeft = calculateTimeLeft();
       setTimeLeft(newTimeLeft);
-
+      console.log("this is the time left", newTimeLeft.distance);
+      console.log("time btn above ", isOpenBtn);
       if (newTimeLeft.distance <= 0) {
         clearInterval(timer);
+        console.log("time btn inside", isOpenBtn);
+        setIdOpenBtn(true);
+        return;
       }
     }, 1000);
 
@@ -73,12 +80,14 @@ const Countdown = ({ targetDate, onClick }: CountdownProps) => {
         </div>
       </div>
 
-      <button
-        onClick={onClick}
-        className="mt-8 px-8 py-2 text-white rounded-lg bg-mandy hover:bg-mandy/80 transition"
-      >
-        Start
-      </button>
+      {isOpenBtn && (
+        <button
+          onClick={onClick}
+          className="mt-8 px-8 py-2 text-white rounded-lg bg-mandy hover:bg-mandy/80 transition"
+        >
+          Open your gift Vedu
+        </button>
+      )}
     </div>
   );
 };
