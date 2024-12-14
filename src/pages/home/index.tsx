@@ -80,7 +80,7 @@ const Home = () => {
   // Close greeting modal when clicking outside
   const handleGreetingModalClick = () => {
     {
-      setIsGreetingOpen(false);
+      setIsGreetingOpen(false); //removed
     }
   };
 
